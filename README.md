@@ -24,3 +24,15 @@ Then run the below 2 commands :
 `venv\Scripts\activate.bat`
 
 `pip install -r requirements.txt`
+
+## Use GIT LFS to store large files on GITHUB
+
+Run the following command : 
+`git lfs migrate import --include="*.csv"`
+
+To read more about GITHUB LFS, 
+please go through the documentation below : 
+
+[Github LFS link1](https://github.blog/2017-06-27-git-lfs-2-2-0-released/)
+
+[Official Github LFS page](https://git-lfs.github.com/)
